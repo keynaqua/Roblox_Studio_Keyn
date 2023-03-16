@@ -3,7 +3,7 @@
 local porte = script.Parent  -- Initialise la variable de la porte
 local clickDetector = porte.clickDetector -- Initialise la variable du ClickDetector
 
---______________FONCTION______________--
+--______________FONCTIONS______________--
 
 local function activation() -- Initialisation de la fonction locale "activation"
     if porte.Transparency == 0 and porte.CanCollide == true then -- Si la porte est visible et si le joueur ne peut pas la traverser, alors
